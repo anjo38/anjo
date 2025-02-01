@@ -1,0 +1,10 @@
+Why use type="password"?
+
+It hides the input characters by displaying dots or asterisks instead of plain text.
+
+This prevents others from seeing the password while typing.
+
+
+What happens if you change it to type="text"?
+
+The password becomes visible as normal text, making it less secure.
