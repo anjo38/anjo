@@ -1,0 +1,9 @@
+Effect of Changing width and height
+
+Increasing the values (e.g., width="800" and height="450") makes the embedded video player larger.
+
+Decreasing the values (e.g., width="300" and height="169") makes it smaller.
+
+If the aspect ratio is not maintained properly, the video might appear stretched or compressed.
+
+Setting width="100%" makes the video responsive, adapting to the width of the parent container.
