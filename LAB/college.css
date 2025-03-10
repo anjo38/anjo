@@ -1,0 +1,23 @@
+body {
+    font-family: "Helvetica", sans-serif;
+}
+
+h2 {
+    color: navy;
+    border-bottom: 2px solid navy;
+    padding-bottom: 5px;
+}
+
+nav ul {
+    background-color: #003366;
+}
+
+nav ul li a:hover {
+    color: lightblue;
+}
+
+ol, ul {
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
