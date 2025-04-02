@@ -1,0 +1,51 @@
+ <!DOCTYPE html>
+<html>
+
+<head>
+	<title>addition</title>
+	<link rel="stylesheet" href="style.css"></link>
+</head>
+
+<body>
+	<h1>calculator</h1>
+	<input type="button" value="+" class="bt" onclick="add()">
+	<input type="button" value="-" class="bt" onclick="substract()">
+	<input type="button" value="*" class="bt" onclick="multiplication()">
+	<input type="button" value="/" class="bt" onclick="division()">
+	<br><br>
+	<input type="text" size="4" class="inp" id="inp1">
+	<input type="text" size="4" class="inp" id="inp2">
+	<span class="op">=</span>
+	<span id="res">0</span>
+<script>
+function add()
+{
+	var a=Number(document.getElementById("inp1").value);
+	var b=Number(document.getElementById("inp2").value);
+	var c=a+b;
+	document.getElementById("res").innerHTML=c;
+}
+function substract()
+{
+        var a=Number(document.getElementById("inp1").value);
+        var b=Number(document.getElementById("inp2").value);
+        var c=a-b;
+        document.getElementById("res").innerHTML=c;
+}
+function multiplication()
+{
+        var a=Number(document.getElementById("inp1").value);
+        var b=Number(document.getElementById("inp2").value);
+        var c=a*b;
+        document.getElementById("res").innerHTML=c;
+}
+function division()
+{
+        var a=Number(document.getElementById("inp1").value);
+        var b=Number(document.getElementById("inp2").value);
+        var c=a/b;
+        document.getElementById("res").innerHTML=c;
+}
+</script>
+</body>
+</html>
